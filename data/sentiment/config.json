@@ -1,0 +1,1 @@
+{"train_size": 6398, "eval_size": 1130, "task_tag": "classification", "labels_map": {"负面": 0, "正面": 1, "中立": 2}, "labels_balance": {"train_labels": {"负面": 677, "正面": 244, "中立": 5477}, "eval_labels": {"负面": 118, "正面": 44, "中立": 968}}}

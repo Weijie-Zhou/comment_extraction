@@ -24,7 +24,7 @@
   - train_epochs：3
   - max_len：256
   - weight_decay：0.01
-  - focal_loss_gamma：4
+  - focal_loss_gamma：2
   - focal_loss_alpha：对中立标签的alpha权重设置为0.5，其他标签的alpha权重设置为1.0
 - loss：由于中立标签的数据量较大，存在样本不均衡的情况，因此使用focal_loss进行损失计算
 
@@ -39,6 +39,6 @@
   - train_epochs：20
   - max_len：256
   - weight_decay：0.01
-  - focal_loss_gamma：4
+  - focal_loss_gamma：2
   - focal_loss_alpha：对O标签的alpha权重设置为0.5，其他标签的alpha权重设置为1.0
 - loss：由于O标签的数据量较大，存在样本不均衡的情况，因此使用focal_loss进行损失计算
